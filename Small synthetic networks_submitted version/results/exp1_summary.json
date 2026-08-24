@@ -1,0 +1,30 @@
+{
+  "configs": [
+    {
+      "label": "full_enforce",
+      "total_negative_steps": 0,
+      "seeds_with_any_decrease": 0
+    },
+    {
+      "label": "full_noenforce",
+      "total_negative_steps": 8,
+      "seeds_with_any_decrease": 4
+    },
+    {
+      "label": "mean_enforce",
+      "total_negative_steps": 79,
+      "seeds_with_any_decrease": 10
+    },
+    {
+      "label": "mean_noenforce",
+      "total_negative_steps": 96,
+      "seeds_with_any_decrease": 10
+    }
+  ],
+  "n_seeds": 10,
+  "n_total_steps_per_seed": 15,
+  "full_total_negative_steps": 0,
+  "full_seeds_with_any_decrease": 0,
+  "mean_only_total_negative_steps": 96,
+  "mean_only_seeds_with_any_decrease": 10
+}
